@@ -119,7 +119,7 @@ export default function Home() {
             <div className={styles.step}>
               <div className={styles.stepNumber}>2</div>
               <h3>Get matched</h3>
-              <p>We'll connect you with the perfect mentor</p>
+              <p>We&rsquo;ll connect you with the perfect mentor</p>
             </div>
             <div className={styles.step}>
               <div className={styles.stepNumber}>3</div>
@@ -195,7 +195,7 @@ export default function Home() {
           <div className={styles.testimonials}>
             {testimonials.map((testimonial, index) => (
               <div key={index} className={styles.testimonial}>
-                <img src={testimonial.image} alt={testimonial.name} className={styles.testimonialImage} />
+                <Image src={testimonial.image} alt={testimonial.name} className={styles.testimonialImage} width={64} height={64} />
                 <p className={styles.quote}>{testimonial.quote}</p>
                 <p className={styles.name}>{testimonial.name}</p>
                 <p className={styles.role}>{testimonial.role}</p>

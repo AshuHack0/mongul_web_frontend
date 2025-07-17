@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import Link from 'next/link';
 import { Inter } from 'next/font/google';
 import styles from '@/styles/UnderConstruction.module.css';
 
@@ -28,9 +29,9 @@ export default function UnderConstruction() {
               />
             </div>
             
-            <h1 className={styles.title}>We're Building Something Amazing</h1>
+            <h1 className={styles.title}>We&rsquo;re Building Something Amazing</h1>
             <p className={styles.subtitle}>
-              Mongul is under construction. We're working hard to bring you the best mentorship platform.
+              Mongul is under construction. We&rsquo;re working hard to bring you the best mentorship platform.
             </p>
             
             <div className={styles.comingSoon}>
@@ -53,9 +54,9 @@ export default function UnderConstruction() {
             </div>
             
             <div className={styles.cta}>
-              <a href="/landing" className={styles.ctaButton}>
+              <Link href="/landing" className={styles.ctaButton}>
                 View Preview
-              </a>
+              </Link>
             </div>
             
             <div className={styles.socialLinks}>
